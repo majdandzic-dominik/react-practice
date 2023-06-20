@@ -1,0 +1,40 @@
+.content {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.products-list{
+  padding: 10px 30px;
+  border: 1px rgba(167, 167, 167, 0.87) solid;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width:1500px) {
+  .content{
+    width: 80%;
+  }
+}
+
+@media (max-width:800px) {
+  .content{
+    width: 90%;
+  }
+}
+
+@media (max-width:500px) {
+  .content{
+    width: 95%;
+  }
+  .products-list{
+    padding: 5px;
+  }
+}
